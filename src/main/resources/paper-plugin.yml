@@ -1,0 +1,31 @@
+name: TulipChat
+version: '1.0.0'
+main: io.github.kit.tulipChat.TulipChat
+api-version: '1.21'
+prefix: [ TulipChat ]
+load: STARTUP
+authors: [ KIT ]
+website: https://akii.pro
+commands:
+  mute:
+    description: Mute a player
+    usage: /mute <player>
+    permission: tulipchat.mute
+  unmute:
+    description: Unmute a player
+    usage: /unmute <player>
+    permission: tulipchat.unmute
+  toggleGlobalChat:
+    description: Toggle global chat on or off
+    usage: /toggleGlobalChat
+    permission: tulipchat.toggle
+permissions:
+  tulipchat.mute:
+    description: Allows the player to mute others
+    default: op
+  tulipchat.unmute:
+    description: Allows the player to unmute others
+    default: op
+  tulipchat.toggle:
+    description: Allows the player to toggle global chat
+    default: op

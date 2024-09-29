@@ -1,0 +1,13 @@
+# TulipChat Configuration
+# Made By Kit
+# Need Support? Join our discord server at https://discord.gg/kMvmu7fNy4
+# Default chat prefix
+chat-prefix: "&7[Tulip] "
+
+# List of bad words to filter
+bad-words:
+  - "badword1"
+  - "badword2"
+
+# Enable or disable global chat
+global-chat-enabled: true
